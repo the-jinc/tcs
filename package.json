@@ -1,0 +1,15 @@
+{
+  "name": "tcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:api": "pnpm --filter api dev",
+    "dev:docs": "pnpm --filter docs dev",
+    "deploy:api": "pnpm --filter api run deploy",
+    "deploy:docs": "pnpm --filter docs run deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
